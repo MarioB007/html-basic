@@ -39,12 +39,62 @@
     </header>
     <!-- glavni dio web stranice -->
     <main>
-        <form>
-            <input type="text">
-            <input type="number">
-            <input type="password">
-            <input type="checkbox">
+        <!-- tablica -->
+        <table>
+            <tr>
+                <th>ime</th>
+                <th>prezime</th>
 
+
+            </tr>
+            <tr>
+                <td>Mario</td>
+                <td>Brzica</td>
+            </tr>
+        </table>
+
+        <button>izvan</button>
+        <form>
+            <div>
+                <label for="ime"> ime:</label>
+                <input type="text" name="name" id="ime" placeholder="unesi ime..." required>
+            </div>
+
+            <div>
+                <label for="broj"> broj:</label>
+                <input type="number" name="num" id="broj">
+            </div>
+
+            <div>
+                <label for="lozinka"> lozinka:</label>
+                <input type="password" name="pass" id="lozinka">
+            </div>
+
+
+
+            <label for="">unesi broj:</label>
+            <input type="number" name="broj">
+            <input type="password" name="lozinka">
+            <input type="search" name="pretraga">
+
+
+            <input type="checkbox" name="okej">
+            <label for="oznaka">prihvacam sva prava koristenja</label>
+
+            <div>
+                <label for="some">odaberi</label>
+                <select name="something" id="some">
+                    <option value="1">prvi</option>
+                    <option value="2">drugi</option>
+                    <option value="3">treci</option>
+
+                </select>
+
+
+            </div>
+            <button type="button">obicni</button>
+            <button type="reset">odustani</button>
+            <button type="submit">potvrdi</button>
 
         </form>
 
